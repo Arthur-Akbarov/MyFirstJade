@@ -10,7 +10,7 @@ Before working do the following:
  
 To start multi-agent system do the following:
  - run maven configurations "Main" then "Agents"
- - watch the output to the console
+ - watch console output
 
 In case of failure run "mvn clean" command first.
 
