@@ -2,10 +2,17 @@
 
 Multi-agent system finds average of agents values.
 
-Used archetype from http://ideaheap.com/2015/05/jade-setup-for-beginners.
+I used archetype from http://ideaheap.com/2015/05/jade-setup-for-beginners.
 
-Run maven configurations "Main" then "Agents" to start.
+Before working do the following:
+ - set project SDK to 1.8
+ - build project
+ 
+To start multi-agent system do the following:
+ - run maven configurations "Main" then "Agents"
+ - watch the output to the console
+
 In case of failure run "mvn clean" command first.
 
-Agents are set in "resource/jade-agent-container.properties"
-by value and adjacency list of linked agents.
+You can redefine agents in "resource/jade-agent-container.properties".
+Each one is set by its value and list of linked agents.
